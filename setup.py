@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "2.6.0"
+version = "2.5.1"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -30,9 +30,9 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords="",
-    author="RIDING BYTES & NARALABS",
-    author_email="senaite@senaite.com",
-    url="https://github.com/senaite/senaite.lims",
+    author="Prudhvi Raj Kanumuri",
+    author_email="prudhvi@prabhatech.com",
+    url="https://github.com/Prudhvikanumuri9/prabatech.lims ",
     license="GPLv2",
     packages=find_packages("src", exclude=["ez_setup"]),
     package_dir={"": "src"},
@@ -41,7 +41,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "Plone>=5.2.14",
-        "senaite.core>=2.5.0",
+        "senaite.core>=2.5.1",
         "senaite.app.listing>=2.5.0",
         "senaite.app.spotlight>=2.5.0",
         "senaite.app.supermodel>=2.5.0",
